@@ -3,9 +3,9 @@ Contributors: arielhr1987, jlcd0894, ivankuraev
 Donate link: https://github.com/arielhr1987
 Tags: user, avatar, image, letter, initial
 Requires at least: 4.7
-Tested up to: 6.8
-Stable tag: 1.3.11
-Requires PHP: 8.2
+Tested up to: 6.9
+Stable tag: 1.3.13
+Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -101,6 +101,15 @@ This usually happens when using **.jpg** for round avatars, which does not suppo
 ---
 
 == Changelog ==
+
+= 1.3.12 =
+* Fix a bug with an incorrect default avatar setting on new installations
+* WordPress 6.9 compatibility check
+
+= 1.3.12 =
+* Fixed an issue where settings were not saved correctly in multisite installations (props to @markcummins).
+* Added blueprint.json to enable Live Preview support.
+* Updated minimum PHP requirement to 8.0
 
 = 1.3.11 =
 * Fixed admin toolbar avatar menu CSS issue
